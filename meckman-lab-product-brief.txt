@@ -1,0 +1,72 @@
+MECKMAN LAB - PRODUCT BRIEF
+================================
+
+Project Overview
+----------------
+Meckman Lab is a personal portfolio website showcasing experimental engineering projects that combine hardware, software, and AI technologies. The site serves as a digital laboratory space to highlight innovative work in robotics, automation, and intelligent systems.
+
+Brand Identity
+--------------
+Name: Meckman Lab
+Tagline: "Experimental Engineering Studio"
+Domain: Meckman.org
+Visual Theme: Clean, minimalist black and white aesthetic
+
+Target Audience
+---------------
+- Engineering professionals and peers
+- Potential collaborators and clients
+- Technical recruiters
+- Students and researchers in robotics/AI fields
+- Anyone interested in practical applications of automation technology
+
+Core Content Structure
+----------------------
+
+OVERVIEW SECTION (Permanent Sidebar Content):
+"Welcome to the Meckman Lab — a space where engineering curiosity meets applied AI. Explore hands-on experiments in robotics, digital systems, and intelligent products that push boundaries between hardware and code."
+
+PROJECT PORTFOLIO:
+
+1. Tennis Ball Picking Robot
+   - Autonomous robot for tennis court maintenance
+   - Computer vision and precision robotics
+   - Obstacle avoidance and surface integrity preservation
+   - Icon: Laboratory beaker (representing experimentation)
+
+2. Weather Dashboard
+   - Responsive web application for weather monitoring
+   - Real-time conditions and radar data
+   - City/ZIP code search functionality
+   - OpenWeatherMap and RainViewer API integration
+   - Interactive precipitation radar mapping
+   - Icon: Cloud (representing weather/atmospheric data)
+
+User Experience Goals
+---------------------
+- Immediate understanding of the lab's focus and expertise
+- Easy navigation between different projects
+- Professional presentation suitable for portfolio sharing
+- Mobile-responsive design for various device viewing
+- Fast loading and smooth interactions
+
+Design Principles
+-----------------
+- Minimalist aesthetic emphasizing content over decoration
+- High contrast for readability (dark backgrounds, light text)
+- Generous space and clean typography
+- Card-based content layout for better organization
+
+Content Strategy
+----------------
+- Focus on practical, real-world applications
+- Emphasize the intersection of hardware and software
+- Highlight autonomous systems and AI integration
+- Demonstrate engineering problem-solving approach
+- Balance technical detail with accessibility
+
+Success Metrics
+---------------
+- Professional presentation of engineering capabilities
+- Clear communication of project scope and technical skills
+- Demonstration of both breadth and depth in engineering disciplines

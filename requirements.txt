@@ -1,0 +1,83 @@
+MECKMAN LAB - WEBSITE REQUIREMENTS
+===================================
+
+PROJECT OVERVIEW
+-----------------
+Build a clean, simple one-page landing site for meckman.org that showcases engineering projects. The site will be hosted on Netlify via GitHub deployment.
+
+DESIGN REQUIREMENTS
+-------------------
+Visual Theme:
+- Primary: Black (#000000), White (#FFFFFF), Charcoal (#5B5B5B)
+- Accent Colors: Tan (#FFF2CC), Red (#CC0000) - used sparingly for visual interest
+- Typography: Modern sans-serif font
+- Layout: Static, no animations - prioritize simplicity
+- Style: Clean monochrome aesthetic with subtle color accents
+
+Responsive Design:
+- Desktop/Laptop (Landscape): Sidebar or horizontal layout
+- Mobile (Portrait): Vertical stacking - "Meckman Lab" title at top, followed by overview, then projects below
+
+CONTENT STRUCTURE
+-----------------
+Header:
+- Site Title: "Meckman Lab"
+- Subtitle/Overview: "Welcome to the Meckman Lab. A space where engineering curiosity meets applied AI. Explore hands-on experiments in robotics, digital systems, and intelligent products that push boundaries between hardware and code."
+
+Projects Section:
+Two projects to display as clickable cards/buttons:
+
+1. Tennis Ball Picking Robot
+   Description: "An autonomous robot designed to identify and collect tennis balls on courts and practice areas. Using computer vision and precision robotics, it navigates efficiently while avoiding obstacles to ensure players can focus on training, not picking balls."
+
+2. Weather Dashboard  
+   Description: "Weather Dashboard is a responsive web application that displays current weather conditions and live radar data for any city or ZIP code. Simply enter a location to view temperature, weather details, and an interactive precipitation radar map."
+
+FUNCTIONALITY REQUIREMENTS
+---------------------------
+Project Interaction:
+- When user clicks a project, display a modal with the project description
+- Modal should be easy to close (X button, click outside, ESC key)
+
+Navigation:
+- No complex navigation needed
+- No contact forms or personal branding
+- Keep focus on projects and lab overview
+
+TECHNICAL CONSTRAINTS
+----------------------
+Codebase Simplicity:
+- Simple file structure that AI CLI coding agents can easily understand
+- Minimal dependencies
+- Clean, readable code organization
+- Avoid complex state management or routing
+
+Deployment:
+- Must work with GitHub → Netlify deployment
+- Static site generation preferred
+- Fast loading times
+- Mobile responsive
+- This will be the meckman.org landing main page to the whole world
+
+CODE STRUCTURE GUIDELINES
+--------------------------
+- Keep components in separate files for clarity
+- Use descriptive naming conventions
+- Minimal CSS framework or vanilla CSS
+- Simple project data structure (array of objects)
+- Clear separation between layout, styling, and functionality
+
+FUTURE CONSIDERATIONS
+---------------------
+- Architecture should allow easy addition of new projects
+- No need to build complex infrastructure for this initial version
+- Focus on solid foundation that can be extended later
+
+SUCCESS CRITERIA
+-----------------
+- Clean, professional appearance
+- Fast loading on both desktop and mobile
+- Easy project discovery, interaction, and site navigation across screen sizes
+- Simple modal functionality works smoothly
+- Responsive design looks good on all screen sizes
+- Color scheme creates visual interest without overwhelming content
