@@ -127,6 +127,28 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.button-container {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+.go-button {
+    background-color: #5B5B5B;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.go-button:hover {
+    background-color: #333333;
+}
+
 .close-details {
     background-color: #FFF2CC;
     color: #333333;
