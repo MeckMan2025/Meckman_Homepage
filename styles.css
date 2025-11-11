@@ -31,13 +31,26 @@ body {
     text-align: center;
 }
 
-/* Divider Line */
+/* Divider Line with Red Dot Accent */
 .divider-line {
+    position: relative;
     width: 100%;
     max-width: 600px;
     height: 1px;
-    background-color: #FFF2CC;
+    background-color: rgba(255, 242, 204, 0.2);
     margin: 2rem auto 1.5rem;
+}
+
+.divider-line::after {
+    content: '•';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #CC0000;
+    padding: 0 8px;
+    font-size: 1.2rem;
 }
 
 /* Overview Text */
@@ -59,7 +72,7 @@ body {
 }
 
 .secondary-text {
-    color: #5B5B5B;
+    color: #CCCCCC;
     font-weight: 400;
 }
 
@@ -75,8 +88,8 @@ body {
 }
 
 .project-card {
-    background-color: #111111;
-    border: 1px solid #333333;
+    background-color: #2A2A2A;
+    border: 1px solid #FFF2CC;
     border-radius: 8px;
     padding: 2rem;
     cursor: pointer;
@@ -85,9 +98,9 @@ body {
 }
 
 .project-card:hover {
-    border-color: #FFF2CC;
+    border-color: #CC0000;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 242, 204, 0.1);
+    box-shadow: 0 4px 12px rgba(204, 0, 0, 0.1);
 }
 
 .project-icon {
@@ -103,7 +116,7 @@ body {
 }
 
 .project-summary {
-    color: #5B5B5B;
+    color: #CCCCCC;
     font-size: 0.95rem;
 }
 
@@ -112,7 +125,7 @@ body {
     display: none;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
-    border-top: 1px solid #333333;
+    border-top: 1px solid rgba(255, 242, 204, 0.2);
     animation: slideDown 0.3s ease-out;
 }
 
@@ -134,36 +147,38 @@ body {
 }
 
 .go-button {
-    background-color: #5B5B5B;
+    background-color: #000000;
     color: #ffffff;
-    border: none;
+    border: 1px solid #FFF2CC;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 0.9rem;
     font-weight: 500;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .go-button:hover {
-    background-color: #333333;
+    background-color: #FFF2CC;
+    color: #000000;
 }
 
 .close-details {
     background-color: #FFF2CC;
-    color: #333333;
-    border: none;
+    color: #000000;
+    border: 1px solid #FFF2CC;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 0.9rem;
     font-weight: 500;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .close-details:hover {
-    background-color: #CC0000;
-    color: #ffffff;
+    background-color: #000000;
+    color: #FFF2CC;
+    border-color: #FFF2CC;
 }
 
 @keyframes slideDown {
@@ -185,7 +200,7 @@ body {
 
 .copyright {
     font-size: 0.9rem;
-    color: #5B5B5B;
+    color: #CCCCCC;
     font-weight: 400;
 }
 
