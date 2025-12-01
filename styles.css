@@ -108,6 +108,25 @@ body {
     margin-bottom: 1rem;
 }
 
+.remi-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.remi-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    background-color: transparent;
+    mix-blend-mode: lighten;
+    filter: brightness(1.1) contrast(1.2);
+}
+
 .project-title {
     font-size: 1.5rem;
     font-weight: 500;
