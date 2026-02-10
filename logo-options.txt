@@ -1,0 +1,28 @@
+MECKMAN LAB — APP ICON OPTIONS
+================================
+
+All options use the V4 design palette (black, charcoal, tan #FFF2CC, red #CC0000)
+and embody the brand keywords: Focus, Control, Discovery, Clarity in the dark.
+
+
+Option 1: "The Curiosity Spark"
+-------------------------------
+A single glowing red ember suspended in pure darkness, casting a warm tan light
+outward. Minimal, abstract, immediately recognizable at small sizes. Directly
+represents the design system's signature element — "the curiosity spark... rare
+and deliberate."
+
+
+Option 2: "The Dark Lab" ← SELECTED
+------------------------------------
+A moody, atmospheric view into a dark chamber with a single illuminated
+workbench — tools, circuits, a soft warm glow cutting through black space.
+Captures the brand essence literally: "stepping into a small, illuminated
+chamber within a dark lab." Feels personal and inviting.
+
+
+Option 3: "The Precision Mark"
+------------------------------
+A bold geometric "M" monogram rendered like a precision-engineered insignia —
+clean edges, metallic tan on black, with one subtle red accent line cutting
+through it. Lab badge energy. Says "Meckman Lab" at a glance, even at icon size.

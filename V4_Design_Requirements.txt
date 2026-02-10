@@ -104,3 +104,21 @@ Core Principle
 “Every Meckman modal is a moment of clarity in a dark space.”
 
 When you open one, the user should feel like the world goes quiet — and their task becomes obvious.
+
+⸻
+
+10. Home Screen App Icons (PWA)
+
+Every Meckman project deployed to the web should support "Add to Home Screen" with a branded icon. iOS and Android are strict about how icons are served.
+
+Requirements:
+	•	apple-touch-icon.png: 180x180, real PNG (not a renamed JPEG). This is what iOS uses. Must be a static file — dynamically served icons (e.g., from R2 or a Worker route) are silently rejected by iOS.
+	•	app-icon-512.png: 512x512 PNG for Android and the web app manifest.
+	•	manifest.json: Must reference both icon sizes with correct type ("image/png") and sizes fields.
+	•	HTML meta tags: <link rel="apple-touch-icon" href="/apple-touch-icon.png">, <link rel="manifest" href="/manifest.json">, and <meta name="apple-mobile-web-app-capable" content="yes">.
+
+Lessons Learned:
+	•	Cloudflare Workers AI (SDXL Lightning) returns JPEG data despite documentation suggesting PNG. Always verify with `file` and convert with `sips` before serving as PNG.
+	•	Serving icons dynamically through Worker routes or R2 fetch does not work for iOS home screen icons. Icons must be static files baked into the deploy.
+	•	Content-Type mismatches (JPEG served as image/png) cause iOS to silently fall back to the first letter of the app name.
+	•	For Cloudflare Workers projects, add a `[assets]` directory in wrangler.toml and place icon files there. For static sites, place them in the root.
