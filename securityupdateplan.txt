@@ -1,0 +1,26 @@
+MECKMAN HOMEPAGE - SECURITY UPDATE PLAN
+=========================================
+Date: 2026-02-22
+Overall Risk: LOW (static site, no backend)
+
+HIGH
+----
+[ ] 1. Add .claude/ to .gitignore (contains permission grants that could be inherited)
+[ ] 2. Add .wrangler/ to .gitignore (may cache auth tokens/deployment state)
+
+MEDIUM
+------
+[ ] 3. Add security headers via _headers file (CSP, X-Frame-Options, HSTS, X-Content-Type-Options, Referrer-Policy)
+[ ] 4. Add SRI integrity attribute to Cloudflare beacon script in index.html
+[ ] 5. Project is on iCloud Drive — .git/ history and .claude/ configs sync to cloud
+
+LOW
+---
+[ ] 6. Add noopener,noreferrer to window.open() call in script.js line 35
+[ ] 7. Establish standard for rel="noopener noreferrer" on any future target="_blank" links
+
+INFO
+----
+[ ] 8. README references Netlify but project uses Cloudflare Workers — update docs
+[ ] 9. LICENSE header says MIT but body is proprietary — clarify
+[ ] 10. Public GitHub repo exposes design docs with infrastructure details

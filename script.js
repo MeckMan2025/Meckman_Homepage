@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(e) {
             e.stopPropagation();
             const url = this.getAttribute('data-url');
-            window.open(url, '_blank');
+            window.open(url, '_blank', 'noopener,noreferrer');
         });
     });
 });
