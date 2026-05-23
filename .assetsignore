@@ -1,0 +1,26 @@
+# Files in this directory that wrangler should NOT publish to meckman.org.
+# gitignore-style syntax. Add anything internal here as you create it.
+
+# Source control + repo metadata
+.git/
+.gitignore
+.assetsignore
+
+# Wrangler internals
+.wrangler/
+wrangler.toml
+
+# Claude / agent config
+.claude/
+
+# OS + editor junk
+.DS_Store
+*.log
+
+# Internal docs (planning, requirements, briefs)
+README.md
+V4_Design_Requirements.txt
+logo-options.txt
+meckman-lab-product-brief.txt
+project-requirements.txt
+securityupdateplan.txt
